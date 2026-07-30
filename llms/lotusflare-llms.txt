@@ -1,0 +1,13 @@
+# LotusFlare
+
+> LotusFlare is a cloud-native digital commerce and monetization platform for telecommunications operators. Its Digital Network Operator (DNO) Cloud delivers charging, catalog, ordering, and digital-experience (BSS) capabilities as a managed SaaS to mobile carriers, and powers eSIM/travel-connectivity brands. The platform is delivered to enterprise telecom customers rather than through a public self-serve developer API.
+
+## Company
+- [LotusFlare](https://lotusflare.com): Company website.
+
+## Notes
+- No public developer portal, API reference, or OpenAPI definition was discoverable at profile time; the corporate website is protected by a bot-mitigation captcha, and no developer/docs/api subdomains resolve.
+- This provider is delivered as a managed enterprise platform (DNO Cloud) rather than a public API product.
+
+## Artifacts
+- [Domain security probe](https://raw.githubusercontent.com/api-evangelist/lotusflare/refs/heads/main/security/lotusflare-domain-security.yml): TLS/DNS/CAA/SPF/DMARC posture for lotusflare.com.
