@@ -1,8 +1,24 @@
 aid: lotusflare
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lotusflare.png
 name: LotusFlare
-description: 'LotusFlare is a company surfaced as a portfolio company of gv, social-capital and added
-  to the API Evangelist network as a stub for enrichment. Sector: enterprise. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'LotusFlare is a cloud-native digital commerce and monetization platform
+  for telecommunications operators. Its Digital Network Operator (DNO) Cloud provides
+  charging, product catalog, ordering, and digital customer-experience (BSS) capabilities
+  as a managed SaaS to mobile carriers, and powers eSIM and travel-connectivity brands.
+  The platform is delivered to enterprise telecom customers rather than through a public
+  self-serve developer API; no public developer portal or API definition was discoverable
+  at profile time. Backed by GV and Social Capital.'
 url: https://raw.githubusercontent.com/api-evangelist/lotusflare/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +29,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Enterprise
+- Telecommunications
+- BSS
+- Digital Commerce
+- Monetization
+- Cloud
+- SaaS
+- eSIM
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +49,12 @@ maintainers:
 common:
 - type: Website
   url: http://lotusflare.com
+- type: DomainSecurity
+  url: security/lotusflare-domain-security.yml
+- type: LLMsTxt
+  url: llms/lotusflare-llms.txt
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
